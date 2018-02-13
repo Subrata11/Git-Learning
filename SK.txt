@@ -1,0 +1,30 @@
+install and setup git in Windows:
+----------------------------------------------------------------
+git configuration:
+
+1. 	git config --global user.email "email@example.com"
+	sksubrata96@gmail.com
+
+
+2.	git config user.email
+----------------------------------------------------------------
+3.	git config --global user.name "Subrata11"
+4.  git config --global user.name
+	Subrata11
+----------------------------------------------------------------	
+Create a new repository on the command line
+echo "# SK1" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/Subrata11/SK1.git
+git push -u origin master
+
+----------------------------------------------------------------
+Push an existing repository from the command line
+git remote add origin https://github.com/Subrata11/SK1.git
+git push -u origin master
+----------------------------------------------------------------
+Your Password in the new Window.
+
+
